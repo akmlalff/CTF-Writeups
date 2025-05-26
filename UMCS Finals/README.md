@@ -356,13 +356,13 @@ UMCS{flag}
 >https://infosecwriteups.com/tcp1p-ctf-blockchain-callenge-writeup-94b7ebe1464c
 
 upon opening the website i guess it's a challlenge where we need to find the flag in the testnet
-go back to the website and you'll get the flag
-
 Explore this address on sepoila network to find a flag. one of that transaction contain flag that was hide on the input data.
+![Cimg1](Img/img1.png)
 
-just decode it
+and in the input data you'll find a decoded text so just decode it and you'll get the flag
+![img2](img/img2.png)
 
 Flag:
 ```bash
-UMCS{flag}
+umcs{ZK_i3_s3cr3tly_3asy}
 ```
