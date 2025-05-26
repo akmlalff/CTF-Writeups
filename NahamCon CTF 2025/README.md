@@ -136,11 +136,55 @@ flag{4cb8649d9ecb0ec59d1784263602e686}
 ```
 
 ### SNAD
+>Author: @HuskyHacks
 
 ### Description
+>No, it's not a typo. It's not sand. It's SNAD. There's a difference!
+>
+>http://challenge.nahamcon.com:31136/
 
 ### Solution
 
+![snad](Images/img5.png)
+
+The script.js attaches injectSand and other functions/variables to window, meaning they can be called directly from the browser console, like:
+
+```bash
+
+function setup() {
+    createCanvas(windowWidth, windowHeight),
+    resetGrid(),
+
+    document.addEventListener("keydown", function(e) {
+        "t" === e.key && (targetIndicatorsVisible = !targetIndicatorsVisible),
+        "x" === e.key && toggleGravity()
+    }),
+
+    // These lines expose internal functions and variables to the global `window` object
+    window.injectSand = injectSand,
+    window.toggleGravity = toggleGravity,
+    window.particles = particles,
+    window.targetPositions = targetPositions,
+    window.checkFlag = checkFlag
+}
+```
+insert this into console and you’ll get the flag
+
+```bash
+injectSand(367, 238, 0)
+injectSand(412, 293, 40)
+injectSand(291, 314, 60)
+injectSand(392, 362, 120)
+injectSand(454, 319, 240)
+injectSand(349, 252, 280)
+injectSand(433, 301, 320)
+```
+![snadflag](Images/img6.png)
+
+Flag:
+```bash
+flag {6ff0c72ad11bf174139e970559d9b5d2} 
+```
 ### Method In The Madness
 
 ### Description
