@@ -31,10 +31,10 @@
 ## Web Exploitation
 
 ### Naham-Commencement 2025
+> Author: @HuskyHacks
 
 ### Description
 > I don't believe in updating my computer, it just takes so long! Besides, no one could ever hack me, I use good passwords!
-> Author: @HuskyHacks
 > 
 > Welcome, Naham-Hacker Class of 2025! This challenge is your official CTF opening ceremony. Enjoy the CTF, play fair, play smart, and get those flags! BEGIN! 📯
 > 
