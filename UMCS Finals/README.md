@@ -2,11 +2,7 @@
 
 🩸 First Blood on Bank Vaults 🩸
 
->solved all the challenges but for challenge 1, 2 and 3
->
->i forgot what's the flag due to i forgot to put it in my writeup
->
->and by the time i wrote this... the server is already down... sorry !
+>solved all the challenges but for challenge 1, 2 and 3 i forgot what's the flag due to i forgot to put it in my writeup and by the time i wrote this... the server is already down... sorry !
 
 ## Table of Contents
 
