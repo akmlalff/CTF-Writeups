@@ -357,7 +357,7 @@ UMCS{flag}
 
 upon opening the website i guess it's a challlenge where we need to find the flag in the testnet
 Explore this address on sepoila network to find a flag. one of that transaction contain flag that was hide on the input data.
-![Cimg1](Img/img1.png)
+![img1](Img/img1.png)
 
 and in the input data you'll find a decoded text so just decode it and you'll get the flag
 ![img2](img/img2.png)
