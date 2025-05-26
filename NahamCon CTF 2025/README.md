@@ -27,7 +27,7 @@
 3. [Screenshot](#Screenshot)
 
 ### Osint
-1.[Taken to School](#Taken-to-School)
+1. [Taken to School](#Taken-to-School)
 
 ---
 
