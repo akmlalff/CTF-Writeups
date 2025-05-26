@@ -30,46 +30,47 @@
 
 ## Web Exploitation
 
-### No Updates
+### Naham-Commencement 2025
 
 ### Description
 > I don't believe in updating my computer, it just takes so long! Besides, no one could ever hack me, I use good passwords!
+> Author: @HuskyHacks
 
-[chall.pcapng](forensics/noupdates) 
+> Welcome, Naham-Hacker Class of 2025! This challenge is your official CTF opening ceremony. Enjoy the CTF, play fair, play smart, and get those flags! BEGIN! 📯
+
+> (True story: NahamSec originally contracted me to built the actual NahamCon site. I showed this to him as a prototype and he said "you know, let's actually move you to the CTF dev team...")
+
+> NOTE, we have noticed an odd gimmick with this challenge -- if you seem to repeatedly see a message An error occurred while processing your request., try changing how you connect to the Internet in case any provider oddities are getting in the way.
+
+> http://challenge.nahamcon.com:31977
+
 
 
 ### Solution
 
-`chall.pcapng` overview:
-
-![Wireshark Chall Overview](img/forensics/chall.png)
-
-We look through the traffic and see a lot of `DNS` and `TCP` packets. There’s no `HTTP`, so we know we’ll need to dig deeper, likely a raw `TCP` shell or reverse shell session.
-
-After serveral minutes talking with my bestfriend. GPT gave me this filter command:
+Saw this line of the code in main.js
 
 ```bash
-frame contains "flag"
+document.addEventListener('DOMContentLoaded', function () {
+    const x1 = "dqxqcius"; //username
+    const x2 = "YeaTtgUnzezBqiwa2025"; //password
+    const k = "nahamcon"; // most likely a key
 ```
 
-![Filter Command](img/forensics/filter.png)
+dqxqcius (Caesar cipher)
 
-Then, I tried to follow `TCP` stream. Maybe I can find something there?
+![Caesar Cipher](img/img1.png)
 
-![TCP Stream](img/forensics/flag1.png)
+YeaTtgUnzezBqiwa2025 + nahamcon (Vigenere cipher)
 
-Found it. 
+![Vigenere Cipher](img/img2.png)
 
-So, basically, in most forensics challenges, the goal is usually to find a hidden flag inside provided files like **memory dumps**, **packet captures**, or **disk images**.
+login with the credentials
 
-Often, you can get a quick lead just by searching for keywords like **flag** using tools like `grep` on the command line or applying a display filter in Wireshark (e.g., `frame contains "flag"`). It’s a simple but effective first step in narrowing down where the flag might be hidden.
-
-Also I found out another solution lol. 
-
-Another solution:
+![login](img/img3.png)
 
 ```bash
-frame contains "UMASS"
+flag{c419dfe3a0a621edc0150a133bb7a34c}
 ```
 
 ![Another Solution](img/forensics/anothersolution.png)
