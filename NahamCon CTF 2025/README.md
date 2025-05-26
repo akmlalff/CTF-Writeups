@@ -3,11 +3,12 @@
 ## Table of Contents
 
 ### Web Exploitation
-1. [Naham-Commencement 2025 ](#Naham-Commencement-2025)
+1. [Naham-Commencement 2025](#Naham-Commencement-2025)
 2. [NoSequel](#NoSequel)
 3. [SNAD](#SNAD)
 4. [Method In The Madness](#Method-In-The-Madness)
 5. [The Mission (Group Challenge)](#The-Mission-(Group-Challenge))
+
    a. [The Mission-Flag #1](#The-Mission-Flag-#1)
    b. [The Mission-Flag #4](#The-Mission-Flag-#4)
    c. [The Mission-Flag #6 (Bonus)](#The-Mission-Flag-#6-(Bonus))
