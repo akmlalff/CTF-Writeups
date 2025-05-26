@@ -1,1 +1,1 @@
-# Writeup NahamCon CTF 2025 - SpamBytes
+# Writeup UMCS Preliminary 2025 - SpamBytes
