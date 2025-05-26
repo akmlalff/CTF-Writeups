@@ -8,9 +8,9 @@
 3. [SNAD](#SNAD)
 4. [Method In The Madness](#Method-In-The-Madness)
 5. [The Mission (Group Challenge)](#The-Mission-(Group-Challenge))
-   i. [The Mission-Flag #1](#The-Mission-Flag-#1)
-  ii. [The Mission-Flag #4](#The-Mission-Flag-#4)
-  iii. [The Mission-Flag #6 (Bonus)](#The-Mission-Flag-#6-(Bonus))
+   a. [The Mission-Flag #1](#The-Mission-Flag-#1)
+   b. [The Mission-Flag #4](#The-Mission-Flag-#4)
+   c. [The Mission-Flag #6 (Bonus)](#The-Mission-Flag-#6-(Bonus))
 
 ### Reverse Engineering
 1. [What's a base amongst friends?](#What's-a-base-amongst-friends?)
