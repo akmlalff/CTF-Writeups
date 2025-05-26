@@ -69,13 +69,10 @@ login with the credentials
 
 ![login](Images/img3.png)
 
+Flag:
 ```bash
 flag{c419dfe3a0a621edc0150a133bb7a34c}
 ```
-
-![Another Solution](img/forensics/anothersolution.png)
-
-Flag: **UMASS{n07_ag41n_d4mn_y0u_m3t4spl017}**
 
 ---
 
