@@ -90,7 +90,7 @@ flag{c419dfe3a0a621edc0150a133bb7a34c}
 
 ### Solution
 
-![NoSequel](Images/img3.png)
+![NoSequel](Images/img4.png)
 
 It says that the queries will NOT work on the Movies collection but WILL work on the Flags collection
 So, we need to steal the secret flag stored as a document in the Flags collection.
