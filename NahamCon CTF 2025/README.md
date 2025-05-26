@@ -59,15 +59,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 dqxqcius (Caesar cipher)
 
-![Caesar Cipher](img/img1.png)
+![Caesar Cipher](Images/img1.png)
 
 YeaTtgUnzezBqiwa2025 + nahamcon (Vigenere cipher)
 
-![Vigenere Cipher](img/img2.png)
+![Vigenere Cipher](Images/img2.png)
 
 login with the credentials
 
-![login](img/img3.png)
+![login](Images/img3.png)
 
 ```bash
 flag{c419dfe3a0a621edc0150a133bb7a34c}
